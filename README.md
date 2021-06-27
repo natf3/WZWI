@@ -6,7 +6,6 @@ Aplikacja webowa do akwizycji i analizy danych z artykułów z konferencji Concu
   
 Celem projektu było stworzenie aplikacji webowej z wykorzystaniem pakietu Shiny, która będzie umożliwiała realizację poniższych funkcjonalności:  
     • pobranie i zapisanie dokumentów z konferencji Concurrency, Specification and Programming 2018 z portalu ceur-ws.org w Apache Solr,  
-
     • wizualizację chmury słów występujących w tych dokumentach z opcją modyfikowania częstości ich występowania.  
   
 2. Charakterystyka analizowanych danych  
@@ -14,7 +13,7 @@ Celem projektu było stworzenie aplikacji webowej z wykorzystaniem pakietu Shiny
 Wykorzystane dane są artykułami zaprezentowanymi na 27 edycji konferencji Concurrency, Specification and Programming w 2018 roku w Berlinie. Wydarzenie organizowane jest na przemian przez Uniwersytet Warszawski i Uniwersytet Humboldta. Omawiane publikacje zajmują się formalną specyfikacją systemów współbieżnych i równoległych, modelami matematycznymi do opisu takich systemów oraz koncepcjami programowania i weryfikacji ich implementacji.  
 	Artykuły umieszczone są na stronie w formacie PDF. Za pomocą pętli ze wszystkich podanych plików wyodrębniany jest tekst, a następnie modyfikowany. Uzyskane dane zapisywane są w Solr. i ponownie pobierane. Usuwane są liczby, znaki interpunkcyjne oraz odrzucone słowa, tzw. „stop words”.  
   
-3.Wykorzystane narzędzia.  
+3. Wykorzystane narzędzia.  
   
 Aplikacja została napisana w języku R z wykorzystaniem RStudio oraz platformy Apache Solr.  
   
